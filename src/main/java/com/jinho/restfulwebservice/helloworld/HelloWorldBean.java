@@ -1,4 +1,4 @@
-package com.jinho.restfulwebservice;
+package com.jinho.restfulwebservice.helloworld;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
