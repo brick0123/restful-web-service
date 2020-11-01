@@ -1,13 +1,17 @@
 package com.jinho.restfulwebservice.user;
 
+import org.springframework.stereotype.Service;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
+@Service
 public class UserDaoService {
     private static List<User> users = new ArrayList<>();
 
     private static int userCount = 3;
+
     static {
         users.add(new User(1, "Jinho", new Date()));
         users.add(new User(2, "Jinho", new Date()));
