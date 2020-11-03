@@ -32,7 +32,7 @@ public class UserDaoService {
 
     public User findOne(Integer id) {
         return users.stream()
-                .filter(user -> user.getId() == 1)
+                .filter(user -> user.getId().equals(id))
                 .findFirst()
                 .orElse(null);
 /*
